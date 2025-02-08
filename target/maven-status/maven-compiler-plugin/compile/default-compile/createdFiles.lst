@@ -1,0 +1,7 @@
+com/spring/camelLearn/CamelLearnApplication.class
+com/spring/camelLearn/routes/b/FileRouter.class
+com/spring/camelLearn/routes/a/GetCurrentTime.class
+com/spring/camelLearn/routes/a/GetCurrentTimeBean.class
+com/spring/camelLearn/routes/a/SimpleLoggingProcessor.class
+com/spring/camelLearn/routes/a/FirstRouter.class
+com/spring/camelLearn/routes/a/FristRouteNew.class

@@ -3,7 +3,7 @@ package com.spring.camelLearn.routes.c;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class ActiveMqSenderRouter extends RouteBuilder {
     @Override
     public void configure() throws Exception {
@@ -18,9 +18,13 @@ public class ActiveMqSenderRouter extends RouteBuilder {
 //                from("file:files/json")
 //                .log("${body}")
 //                .to("activemq:my-activemq-queue");
-        from("file:files/xml")
-                .log("${body}")
-                .to("activemq:my-activemq-xml-queue");
+//        from("file:files/xml")
+//                .log("${body}")
+//                .to("activemq:my-activemq-xml-queue");
+
+//        from("file:files/csv")
+//                .log("${body}")
+//                .to("activemq:split-queue");
     }
     }
 
